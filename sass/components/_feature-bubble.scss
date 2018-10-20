@@ -1,0 +1,23 @@
+.feature-bubble {
+    background-color: $color-primary; 
+    content: ""; 
+    width: 18rem;
+    height: 18rem; 
+    border-radius: 50%;
+    box-shadow: $shadow-small; 
+    position: relative;
+    transition: all .4s cubic-bezier(0.68, -0.55, 0.265, 1.55); 
+
+    &:hover {
+        transform: scale(1.09);
+        box-shadow: $shadow-primary;
+    }
+
+    &__text {
+        @include absCenter; 
+        text-transform: uppercase;
+        text-align: center;
+        color: $color-white; 
+        z-index: 1000;
+    }
+}

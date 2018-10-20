@@ -1,0 +1,37 @@
+.philosophy {
+    margin: 7rem 0; 
+}
+
+.about {
+    padding: 10rem 0; 
+    background-color: $color-primary-light; 
+
+    &__img {
+        width: 100%; 
+        margin-top: 5rem;
+    }
+}
+
+.services {
+    padding: 10rem 0; 
+    background-color: $color-white; 
+}
+
+.areas-of-specialty {
+    padding: 10rem 0;
+    background-color: $color-white;
+}
+
+.fees {
+    padding: 10rem 0; 
+    background-color: $color-primary-light;
+}
+
+.contact {
+    padding: 10rem 0; 
+    background-color: $color-white;
+
+    &__img {
+        width: 100%; 
+    }
+}

@@ -5,3 +5,23 @@ body {
     line-height: 1.7; 
     color: grey;
 }
+
+.heading-secondary {
+    font-family: Georgia, Times, serif;
+    font-weight: 300;
+    font-size: 3rem;
+    line-height: 4rem;
+}
+
+.text {
+    &--emphasis {
+        font-style: italic;
+        font-size: 1.8rem;
+    }
+
+    &--asterix {
+        text-align: right; 
+    }
+}
+
+
